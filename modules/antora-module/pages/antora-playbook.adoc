@@ -1,0 +1,28 @@
+= The Antora Playbook
+On this page, you’ll learn:
+
+* The purpose of an Antora playbook.
+* Where the playbook file is located.
+* The playbook file formats Antora accepts.
+
+== What’s an Antora playbook?
+An Antora playbook makes it easy for technical writers to control what content is included in your site, what user interface (UI) is applied to it, and where the site is published using a playbook file. The settings in the playbook file, in combination with CLI options and environment variables, tell Antora how to operate.
+
+=== Specifically, a playbook tells Antora:
+* What information should be applied to the site globally, such as its title and URL.
+* The page that sits at the root of the site (i.e., home or landing page content).
+* Which content repositories, branches, and tags to feed into Antora.
+* What AsciiDoc attributes and Asciidoctor extensions should be applied site wide.
+* Which UI bundle to use to control the visual layout, style, and behavior of the pages.
+* Where the site should be published and in what output format.
+* How and when Antora should handle source repository updates, artifact updates, and its cache.
+
+_Additionally, certain settings in the playbook file can be overridden using CLI options or environment variables, which allows an operations team to tailor the behavior for specific environments, such as production._
+
+=== Where is a playbook stored?
+A playbook is usually located in a playbook project. A playbook project repository is responsible for generating a documentation site. It’s strictly a configuration as code repository—​it does not contain any content. Instead, it contains a playbook file, and, in certain situations, supplemental UI files and extension code.
+
+==== Playbook file formats
+* Playbooks can be written in YAML, JSON, and TOML. YAML is a common configuration language for defining automated tasks and most of the playbook examples in this documentation use YAML. But you’re free to use any of these formats.
+
+* Regardless of its format, a playbook contains structured key-value pairs for specifying general site properties, content and UI input sources, and published output destinations and providers.

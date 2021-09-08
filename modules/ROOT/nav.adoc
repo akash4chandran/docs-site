@@ -1,2 +1,2 @@
-* xref:release-notes.adoc[Release Notes Documentation]
-* xref:how-it-works.adoc[How it Works]
+* xref:how-antora-works.adoc[How Antora Works]
+* xref:antora-playbook.adoc[The Antora Playbook]
