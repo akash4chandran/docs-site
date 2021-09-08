@@ -1,6 +1,6 @@
 name: refresh-user-guide
 title: Refresh Documentation
-version: v1.0.0
+version: 'v1.0.0'
 start_page: ROOT:index.adoc
 nav:
 - modules/ROOT/nav.adoc
