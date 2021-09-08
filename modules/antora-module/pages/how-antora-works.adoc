@@ -10,7 +10,7 @@ The steps listed in this section describe the operations the default site genera
 ==== Build playbook
 *When you’re ready to generate a site, you pass Antora a playbook file and tell it to run.*
 
-A playbook file is simple a configuration file that can be written in YAML, JSON, or TOML. It contains information and settings such as what content to use, how the content should be processed, how the site should be generated, and where to publish the output.
+A xref:antora-playbook.adoc[PlayBook] file is simple a configuration file that can be written in YAML, JSON, or TOML. It contains information and settings such as what content to use, how the content should be processed, how the site should be generated, and where to publish the output.
 
 Antora reads the playbook file and builds a playbook from it, which it then uses to drive the pipeline.
 
