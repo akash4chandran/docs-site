@@ -1,0 +1,23 @@
+:navtitle: Release Notes
+
+= Refresh Health 
+
+== Release Notes
+
+**v1.12.0 ** - **_August 24, 2021**_
+Updated to Carejoy framework version to v2.19.0
+Added Chart Review Support.
+
+**v1.11.0 ** - *_August 20, 2021_*
+Updated to Carejoy framework version to v2.18.0
+Added support to import Epic patients with condition.
+
+*v1.10.0* - *_July 16, 2021_*
+Updated to Dynamo framework version to v2.4.0
+Updated to Carejoy framework version to v2.17.0
+Added Clinical Decision Support.
+
+*v1.9.0* - *_June 28, 2021_*
+Updated to Carejoy framework version to v2.16.0
+Migrated Epic work to carejoy-framework.
+Bug fixes to support EHR launch and Standalone launch in Epic.

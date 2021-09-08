@@ -1,0 +1,6 @@
+name: refresh-user-guide
+title: Refresh Documentation
+version: master
+start_page: ROOT:inline-text-formatting.adoc
+nav:
+- modules/ROOT/nav.adoc
