@@ -5,3 +5,5 @@
 * _This site hosts the technical documentation for Antora. Antora makes it easy for tech writers to create documentation and publish it to the web. As a tech writer, you focus on authoring content in AsciiDoc, Antora’s content markup language. You organize those files into a standard project structure and store them in one or more content (git) repositories. Antora picks up your content from there and transforms it into a website. That’s all there is to it!_
 
 ==== xref:how-antora-works.adoc[How Antora Works]
+
+==== xref:ROOT:release-notes.adoc[Refresh Release Notes]
