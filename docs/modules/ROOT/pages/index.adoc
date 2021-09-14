@@ -2,4 +2,4 @@
 
 == Welcome
 
-Welcome to our *Refresh Health Documentation* 
+Welcome to our *Refresh Health Docs* 
